@@ -1,0 +1,49 @@
+I am a Lecturer and a researcher in Machine Learning, Artificial Intelligence, Deep Learning, Data Analysis, Cyber Security, Network Security, and Data Privacy. I have worked on Many Data analysis projects in machine learning, Artificial intelligence, and Network Security. I also provide problem-solving solutions to different service-providing companies.
+I reviewed Version 3 of this preprint posted on 11 November 2024.
+
+Overall Assessment
+
+  The study integrates high-throughput molecular dynamics (MD) simulations with machine learning techniques to develop formulations. They describe a novel framework that quickly identifies promising formulations, which apply to various applications, including pharmaceuticals and energy materials. This study shows that the FDS2S method improves prediction capabilities compared to traditional approaches. It gives the findings more credibility. This lays the groundwork for future research and applications. This study is well structured with clear explanations of the methods, results, and implications. There are some minor suggestions to improve the abstract section as follows;
+The authors may need to include quantitative results to show the performance of the FDS2S approach.
+The authors may also need to include a line about future directions. 
+
+Introduction
+
+  The authors clearly stated that formulator properties in materials science are challenging to predict, given the complexity of intermolecular interactions in chemical mixtures. Specifically, it highlights traditional trial-and-error methods' limitations in formulating formulations to establish the context for the research question. They provide a thorough overview of the significance of formulations in various applications, including energy materials and pharmaceuticals. They describe how molecular dynamics simulations are a promising substitute for experimental methods to assist researchers grasp the reasoning behind the study. The significance of the research in the field is persuasively established by demonstrating the applicability of their work by highlighting the enormous design space of chemical formulations and the possibility of computational tools to effectively traverse this space. They also highlight the necessity for reliable predictive models by mentioning the difficulties in comparing machine learning techniques because of the scarcity of experimental data. The authors need to incorporate some suggestions in this section for the robustness of the study.
+In the first paragraph of the introduction in line 4, authors need to cite the term a priori Such as
+Bealer, G. (1999). A Theory of the A Priori.Philosophical perspectives, 13, 29-55.
+
+The authors may need to provide a brief overview of specific challenges in information design, like the complexity of the interaction’s b/w ingredients, and limitations of traditional experimental methods.
+
+    
+
+Methods
+
+   The methodologies are sufficiently explained in detail for independent replication, and the study design successfully tests the authors’ hypothesis that machine learning models can properly predict formulation features based on a complete dataset collected from molecular dynamics simulations. To create formulation-property connections and make the research accessible and reproducible for other scientists in the area, the study design entails creating a large dataset (about 30,000 miscible solvent mixes) and applying a variety of machine-learning approaches. I have some comments on the table and figures related to this section of the study:
+Figure 1 helps to understand the process of generation of formulation datasets using experimental miscibility tables. The graph in part (b) highlights the scalability and broad applicability of generating formulations from a diverse solvent dataset.
+Table 1 helps to understand the summary of formulation study for different numbers of components used in this research which highlights the extensive scope of formulations studied with varying component combinations. The authors may need to include more specific details about the formulations like types of solvents for more understanding about the dataset.
+Figure 2 helps to understand the molecular dynamics (MD) simulations role in the prediction and comparison of properties of chemical mixtures with experimental results. This comparison is helpful to verify the reliability of MD simulations as a tool for predicting mixture properties. The authors may need to add variability measures in graphs to assess the precision of the predictions which helps to understand the reliability of data.
+Figure 3 helps to understand the distribution of formulation labels from classical molecular dynamic simulations which showcase how these labels vary with the number of components in density, heat of vaporization, and enthalpy of mixing. The figure is also helpful in understanding the nuanced effects of molecular diversity on physical and chemical properties in simulations.
+Figure 4 helps to understand the schematic representation of the approaches used in this study to predict molecular properties based on formulation descriptors. This figure concludes that each method offers a unique perspective on handling molecular descriptor data to predict the properties more efficiently.
+
+    
+
+Results
+
+  The results of the study were rationally analyzed and interpreted. In the context of formulation-property interactions, they examine the consequences of their findings and evaluate the performance of various models. I have a suggestion and comments on figures and tables related to this section of the study:
+The authors may need to provide complete datasets along with simulation codes in an open-access library like GitHub to facilitate the researchers to replicate the study to audit the results. 
+Figure 5 helps to understand the performance of different formulation property models based on the size of the training dataset. The models in this figure help to understand the capability of the models to effectively capture the relationships between formulations and their properties. The authors need to mention the legends of graphs D, E, and F along with the graph instead of in the description given at the bottom for a better understanding of graphs.
+Figure 6 helps to understand the feature importance derived from FDA models using SHAP (Shapley Additive exPlanations) analysis. This figure helps to learn about the identification of molecular substructures identified by the fingerprints which play important roles in determining the stated properties. The researchers can also get valuable insights into the features that are most important for enhancing the pharmacokinetic properties of small molecules in the development of drugs.
+Figure 7 helps to understand the results of an active learning study using formulation property models to optimize three properties density, heat of vaporization, and critical temperature. The results shown in this figure suggest that acquisition functions outperform in achieving higher R2 values and better top percentage scores as the training dataset size increases. This figure provides insights into the robustness and reliability of the model’s predictions.
+Figure 8 helps to understand the performance of formulation machine learning models on an experimental dataset. The results shown in the graphs of this figure are helpful for researchers to make more informed decisions regarding material selection and formulation strategies based on the predictive capabilities of models which lead to better performance in applications.
+Table 2 helps to summarize the various datasets used to benchmark formulation property relationships across different categories like solvent effects, different formulation strategies, and pharmaceutical formulation. The performance metrics mentioned in the table are crucial for understanding the strength and accuracy of these models. This table is helpful to compare the effectiveness of different approaches according to the metrics. With the help of this comparison, the researchers can optimize the formulations in various fields, to ensure the most effective strategies are employed.
+Supplementary Figure 1 illustrates the impact of solvent miscibility on molecular interactions in which A and B show the simulations of solute-solvent systems with different solvent miscibility conditions and demonstrate how miscibility can affect the distribution and organization of molecules within the mixture. Whereas, C and D provide quantitative analyses of the systems through radial distribution functions and help in understanding the spatial arrangement and interaction dynamics within different solvent environments. The authors may need to use arrows or callouts and a brief description of what each part of the figure represents to highlight important aspects of the molecular interactions for better understanding of the readers.
+Supplementary Figure 2 is a bar chart that visualizes the number of binary relevance examples for two different labels. The authors may need to add annotations to highlight the points directly on the chart.  
+
+    
+
+Discussion
+
+  The results do support the authors’ conclusions about the effectiveness of machine learning models in predicting formulation properties. Although there are some alternative interpretations that could deepen the discussion and offer a more thorough grasp of the study’s implications.
+The authors may need to include specific formulation examples that have been optimized using computational methods for a better understanding of the practical implications of the research.
+The authors may need to explore how different features might lead to different outcomes for example molecular descriptors like Morgan fingerprints may be more relevant for specific properties and may omit the relevant features which leads to a skew in the predictive performance. 
