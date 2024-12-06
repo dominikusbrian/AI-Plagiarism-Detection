@@ -1,0 +1,1092 @@
+{
+  "properties": {
+    "privateID": 27870052,
+    "id": "2ltrbf9peod48c17",
+    "title": "Scan",
+    "excluded_url": "https://example.com",
+    "public_link": "https://app.originality.ai/share/2ltrbf9peod48c17",
+    "content": "Overall Assessment\n\n  \ni) The abstract requires some improvements. For example, there should be a context before showing the objective so the reader can understand the reasons and justification for developing a new toolkit like the VIEWER. Besides, information regarding the objective and method are mixed up. In the results, the authors should consider providing specific findings regarding the effectiveness and satisfaction and qualitative reports on its usability (e.g., ease of use). The discussion and conclusion are redundant and should be rewritten/merged/excluded.\nii) The authors did a good job in the introduction; many references are cited, and each statement is grounded in scientific literature. Still, the authors could provide more discussion about using technologies to support data visualization, specifically in mental health. Previous studies and frameworks related to VIEWER should be discussed, and their limitations should be exposed so the authors can better justify the development of a new tool. In other words, the authors did not explore the challenges/limitations of existing solutions in depth. Including concrete examples or statistics/qualitative results illustrating how current systems fail to meet mental health needs and caregivers' requirements is vital to improving the justification of a new tool for mental health. Besides, the introduction could benefit from a research question. In this regard, consider using the question I have provided as a starting point.\niii) The authors provided a good overview of the methodological procedures, especially regarding the system architecture and its development. However, the method could benefit from a new figure showing the timeline of the VIEWER development, testing and evaluation and how many professionals participated in each step, etc. Similarly, another figure could be used to represent the three design phases. Besides, for each phase, the authors should explain the reasoning behind the premises better. This will support replicability and researchers curious about the social-technical system perspective. Regarding the requirements, clarify the context in which they were collected, e.g., specific meetings, observations, document analysis, etc. I have provided some recommendations for improvement in the figures and tables. A fragility of the method section is the lack of information about the role of each stakeholder, how the needs/requirements were identified for each stakeholder group, e.g., semi-structured interviews, workshops, observations or questionnaires and how many times they were conducted for each group. Besides, there is no information about data analysis, i.e., how data was processed to provide the requirements, for example, as well as the VIEEWER framework, since it is based on data collection and analysis to meet the specific requirements from stakeholders.\niv) Results are very good as well. Still, patient and data characteristics should be moved to the methods section. Table S1 requires notes on data integration to support replicability, while Figure 3 should include actionable strategies for managers and leverage LLMs for workload optimization. It seems that the VIEWER only presents data visualization but lacks in proposing NLP tools to support strategies and redundancy capabilities for the system. Figure 4 could explicitly state if automated recommendations exist for improving adherence. Tables should also be improved. For example, Table 3 lacks evidence of VIEWER’s impact, which could be enhanced with metrics and a column detailing which stakeholders most benefit from tasks. Figure 5 reflects good usability but indicates a need for technical support, suggesting tutorials for diverse skill levels (it would be important if the authors could provide some training as a sup material or suggest as a future work). Finally, Figure 6 and Table S2 show VIEWER’s time-saving benefits but lack specifics on feedback contributors, such as their roles and expertise. The discussion could improve some of these aspects that seem missing in the results. \n\nAbstract\n\ni) Consider providing some context for readers before jumping to the objective of this study, e.g., why is a new toolkit for visual analytics of clinical data needed? Are there existent/similar frameworks/toolkits? A new one is necessary because they have limitations that VIEWER will address. How will it fill the literature gap or solve a research/practical problem?\nii) The authors mix objectives with methods. For example, the sentence “systematically evaluate its effectiveness across various clinical applications while gathering feedback for iterative improvements.” It should be used in the method section to describe how the tool will be assessed. The objective is to create the tool. In fact, consider excluding that sentence; what is already presented in the method may be redundant.\niii) In fact, bring that sentence to the method and throw this one into the context: “IN ORDER TO FILL THIS GAP (WHICH gap or problem?), we developed the VIEWER, which is an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care.”.\niv) For example, “IN ORDER TO FILL THIS GAP (WHICH ONE?), this study proposes the VIEWER, an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care. Through an iterative and collaborative participatory design approach, VIEWER was designed and implemented in a large mental health institution, where its clinical utility and effectiveness were assessed using both quantitative and qualitative methods.”.\nv) Regarding the results, consider providing key findings about the VIEWER’s effectiveness, utility, etc. For example, VIEWER provides interactive (how?), improved performance (how much?) and task completion speed compared to the standard clinical information system (%???). Users and stakeholders reported high satisfaction (in which way?).\nvi) For example, “in terms of effectiveness, the time spent on medication review tasks was reduced from 1–2 hours to 10–20 minutes, representing a reduction of 75% to 83%. In addition, the system identified medications that human reviewers had not highlighted. In terms of user satisfaction, the usability index of VIEWER was 74/100, indicating “good” usability. Qualitative evaluations showed that users were interested in adopting the system in daily practices, even considering the initial learning curve.”.\nvii) The discussion does not bring discussion of results but other information about results. Discussion should present new insights, propositions for future works, limitations, etc. The conclusion follows the same path. Consider unifying discussion and conclusions and present the most important insights from applying this study (not results)."
+  },
+  "credits": {
+    "used": 42,
+    "base_credits": 50,
+    "subscription_credits": 14837
+  },
+  "ai": {
+    "classification": {
+      "AI": 1,
+      "Original": 0
+    },
+    "confidence": {
+      "AI": 0.6398,
+      "Original": 0.3602
+    },
+    "blocks": [
+      {
+        "text": "Overall Assessment i) The abstract requires some improvements. ",
+        "result": {
+          "fake": 0.6481280100067807,
+          "real": 0.35187198999321934,
+          "status": "success"
+        }
+      },
+      {
+        "text": "For example, there should be a context before showing the objective so the reader can understand the reasons and justification for developing a new toolkit like the VIEWER. ",
+        "result": {
+          "fake": 0.5290981900414181,
+          "real": 0.4709018099585819,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Besides, information regarding the objective and method are mixed up. ",
+        "result": {
+          "fake": 0.53359172460639,
+          "real": 0.4664082753936099,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In the results, the authors should consider providing specific findings regarding the effectiveness and satisfaction and qualitative reports on its usability (e.g., ease of use). ",
+        "result": {
+          "fake": 0.5387246779322974,
+          "real": 0.4612753220677026,
+          "status": "success"
+        }
+      },
+      {
+        "text": "The discussion and conclusion are redundant and should be rewritten/merged/excluded. ",
+        "result": {
+          "fake": 0.6454018525004737,
+          "real": 0.35459814749952634,
+          "status": "success"
+        }
+      },
+      {
+        "text": "ii) The authors did a good job in the introduction; many references are cited, and each statement is grounded in scientific literature. ",
+        "result": {
+          "fake": 0.7301739028811804,
+          "real": 0.26982609711881955,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Still, the authors could provide more discussion about using technologies to support data visualization, specifically in mental health. ",
+        "result": {
+          "fake": 0.7412527572830868,
+          "real": 0.2587472427169132,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Previous studies and frameworks related to VIEWER should be discussed, and their limitations should be exposed so the authors can better justify the development of a new tool. ",
+        "result": {
+          "fake": 0.8336723021388405,
+          "real": 0.16632769786115953,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In other words, the authors did not explore the challenges/limitations of existing solutions in depth. ",
+        "result": {
+          "fake": 0.8653432102720292,
+          "real": 0.1346567897279708,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Including concrete examples or statistics/qualitative results illustrating how current systems fail to meet mental health needs and caregivers' requirements is vital to improving the justification of a new tool for mental health. ",
+        "result": {
+          "fake": 0.9588947764754646,
+          "real": 0.041105223524535384,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Besides, the introduction could benefit from a research question. ",
+        "result": {
+          "fake": 0.8244942100564988,
+          "real": 0.1755057899435012,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In this regard, consider using the question I have provided as a starting point. ",
+        "result": {
+          "fake": 0.6673427891453457,
+          "real": 0.3326572108546543,
+          "status": "success"
+        }
+      },
+      {
+        "text": "iii) The authors provided a good overview of the methodological procedures, especially regarding the system architecture and its development. ",
+        "result": {
+          "fake": 0.4864810875773779,
+          "real": 0.513518912422622,
+          "status": "success"
+        }
+      },
+      {
+        "text": "However, the method could benefit from a new figure showing the timeline of the VIEWER development, testing and evaluation and how many professionals participated in each step, etc. ",
+        "result": {
+          "fake": 0.46473234610958425,
+          "real": 0.5352676538904158,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Similarly, another figure could be used to represent the three design phases. ",
+        "result": {
+          "fake": 0.5658463608940792,
+          "real": 0.4341536391059207,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Besides, for each phase, the authors should explain the reasoning behind the premises better. ",
+        "result": {
+          "fake": 0.677489148747956,
+          "real": 0.32251085125204404,
+          "status": "success"
+        }
+      },
+      {
+        "text": "This will support replicability and researchers curious about the social-technical system perspective. ",
+        "result": {
+          "fake": 0.7790650697271378,
+          "real": 0.22093493027286215,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Regarding the requirements, clarify the context in which they were collected, e.g., specific meetings, observations, document analysis, etc. ",
+        "result": {
+          "fake": 0.6836561929901791,
+          "real": 0.3163438070098209,
+          "status": "success"
+        }
+      },
+      {
+        "text": "I have provided some recommendations for improvement in the figures and tables. ",
+        "result": {
+          "fake": 0.5509974431713772,
+          "real": 0.4490025568286228,
+          "status": "success"
+        }
+      },
+      {
+        "text": "A fragility of the method section is the lack of information about the role of each stakeholder, how the needs/requirements were identified for each stakeholder group, e.g., semi-structured interviews, workshops, observations or questionnaires and how many times they were conducted for each group. ",
+        "result": {
+          "fake": 0.37324656761888186,
+          "real": 0.6267534323811181,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Besides, there is no information about data analysis, i.e., how data was processed to provide the requirements, for example, as well as the VIEEWER framework, since it is based on data collection and analysis to meet the specific requirements from stakeholders. ",
+        "result": {
+          "fake": 0.33489014424089114,
+          "real": 0.6651098557591089,
+          "status": "success"
+        }
+      },
+      {
+        "text": "iv) Results are very good as well. ",
+        "result": {
+          "fake": 0.453437703025376,
+          "real": 0.546562296974624,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Still, patient and data characteristics should be moved to the methods section. ",
+        "result": {
+          "fake": 0.7494230391304049,
+          "real": 0.25057696086959513,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Table S1 requires notes on data integration to support replicability, while Figure 3 should include actionable strategies for managers and leverage LLMs for workload optimization. ",
+        "result": {
+          "fake": 1,
+          "real": 0,
+          "status": "success"
+        }
+      },
+      {
+        "text": "It seems that the VIEWER only presents data visualization but lacks in proposing NLP tools to support strategies and redundancy capabilities for the system. ",
+        "result": {
+          "fake": 1,
+          "real": 0,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Figure 4 could explicitly state if automated recommendations exist for improving adherence. ",
+        "result": {
+          "fake": 1,
+          "real": 0,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Tables should also be improved. ",
+        "result": {
+          "fake": 0.8910821697831505,
+          "real": 0.10891783021684952,
+          "status": "success"
+        }
+      },
+      {
+        "text": "For example, Table 3 lacks evidence of VIEWER’s impact, which could be enhanced with metrics and a column detailing which stakeholders most benefit from tasks. ",
+        "result": {
+          "fake": 1,
+          "real": 0,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Figure 5 reflects good usability but indicates a need for technical support, suggesting tutorials for diverse skill levels (it would be important if the authors could provide some training as a sup material or suggest as a future work). ",
+        "result": {
+          "fake": 0.8481458546440156,
+          "real": 0.1518541453559844,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Finally, Figure 6 and Table S2 show VIEWER’s time-saving benefits but lack specifics on feedback contributors, such as their roles and expertise. ",
+        "result": {
+          "fake": 0.7197041235089652,
+          "real": 0.2802958764910348,
+          "status": "success"
+        }
+      },
+      {
+        "text": "The discussion could improve some of these aspects that seem missing in the results. ",
+        "result": {
+          "fake": 0.4875949195742957,
+          "real": 0.5124050804257043,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Abstract i) Consider providing some context for readers before jumping to the objective of this study, e.g., why is a new toolkit for visual analytics of clinical data needed? ",
+        "result": {
+          "fake": 0.48570346551342336,
+          "real": 0.5142965344865766,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Are there existent/similar frameworks/toolkits? ",
+        "result": {
+          "fake": 0.49931386825644497,
+          "real": 0.500686131743555,
+          "status": "success"
+        }
+      },
+      {
+        "text": "A new one is necessary because they have limitations that VIEWER will address. ",
+        "result": {
+          "fake": 0.5786534917076779,
+          "real": 0.4213465082923221,
+          "status": "success"
+        }
+      },
+      {
+        "text": "How will it fill the literature gap or solve a research/practical problem? ",
+        "result": {
+          "fake": 0.6004036239505164,
+          "real": 0.3995963760494836,
+          "status": "success"
+        }
+      },
+      {
+        "text": "ii) The authors mix objectives with methods. ",
+        "result": {
+          "fake": 0.6711773049553585,
+          "real": 0.32882269504464146,
+          "status": "success"
+        }
+      },
+      {
+        "text": "For example, the sentence “systematically evaluate its effectiveness across various clinical applications while gathering feedback for iterative improvements.” It should be used in the method section to describe how the tool will be assessed. ",
+        "result": {
+          "fake": 0.8028213453015042,
+          "real": 0.19717865469849585,
+          "status": "success"
+        }
+      },
+      {
+        "text": "The objective is to create the tool. ",
+        "result": {
+          "fake": 0.752393352162873,
+          "real": 0.24760664783712705,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In fact, consider excluding that sentence; what is already presented in the method may be redundant. ",
+        "result": {
+          "fake": 0.8147167137980812,
+          "real": 0.1852832862019188,
+          "status": "success"
+        }
+      },
+      {
+        "text": "iii) In fact, bring that sentence to the method and throw this one into the context: “IN ORDER TO FILL THIS GAP (WHICH gap or problem?",
+        "result": {
+          "fake": 0.7905991943399461,
+          "real": 0.20940080566005392,
+          "status": "success"
+        }
+      },
+      {
+        "text": "), we developed the VIEWER, which is an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care.”. ",
+        "result": {
+          "fake": 0.8770797323902798,
+          "real": 0.1229202676097202,
+          "status": "success"
+        }
+      },
+      {
+        "text": "iv) For example, “IN ORDER TO FILL THIS GAP (WHICH ONE?",
+        "result": {
+          "fake": 0.7809070916692765,
+          "real": 0.21909290833072348,
+          "status": "success"
+        }
+      },
+      {
+        "text": "), this study proposes the VIEWER, an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care. ",
+        "result": {
+          "fake": 0.6915527951439572,
+          "real": 0.3084472048560428,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Through an iterative and collaborative participatory design approach, VIEWER was designed and implemented in a large mental health institution, where its clinical utility and effectiveness were assessed using both quantitative and qualitative methods.”. ",
+        "result": {
+          "fake": 0.6083865733663592,
+          "real": 0.3916134266336409,
+          "status": "success"
+        }
+      },
+      {
+        "text": "v) Regarding the results, consider providing key findings about the VIEWER’s effectiveness, utility, etc. ",
+        "result": {
+          "fake": 0.5195839774330807,
+          "real": 0.4804160225669193,
+          "status": "success"
+        }
+      },
+      {
+        "text": "For example, VIEWER provides interactive (how?",
+        "result": {
+          "fake": 0.43805471775137905,
+          "real": 0.561945282248621,
+          "status": "success"
+        }
+      },
+      {
+        "text": "), improved performance (how much?) ",
+        "result": {
+          "fake": 0.4769002767126116,
+          "real": 0.5230997232873884,
+          "status": "success"
+        }
+      },
+      {
+        "text": "and task completion speed compared to the standard clinical information system (%???). ",
+        "result": {
+          "fake": 0.48625991460883145,
+          "real": 0.5137400853911686,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Users and stakeholders reported high satisfaction (in which way?). ",
+        "result": {
+          "fake": 0.4722781550606442,
+          "real": 0.5277218449393558,
+          "status": "success"
+        }
+      },
+      {
+        "text": "vi) For example, “in terms of effectiveness, the time spent on medication review tasks was reduced from 1–2 hours to 10–20 minutes, representing a reduction of 75% to 83%. ",
+        "result": {
+          "fake": 0.4470343760371558,
+          "real": 0.5529656239628442,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In addition, the system identified medications that human reviewers had not highlighted. ",
+        "result": {
+          "fake": 0.5768871577302965,
+          "real": 0.4231128422697034,
+          "status": "success"
+        }
+      },
+      {
+        "text": "In terms of user satisfaction, the usability index of VIEWER was 74/100, indicating “good” usability. ",
+        "result": {
+          "fake": 0.5574537785570177,
+          "real": 0.4425462214429823,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Qualitative evaluations showed that users were interested in adopting the system in daily practices, even considering the initial learning curve.”. ",
+        "result": {
+          "fake": 0.4853704046925259,
+          "real": 0.5146295953074741,
+          "status": "success"
+        }
+      },
+      {
+        "text": "vii) The discussion does not bring discussion of results but other information about results. ",
+        "result": {
+          "fake": 0.32338108338121097,
+          "real": 0.676618916618789,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Discussion should present new insights, propositions for future works, limitations, etc. ",
+        "result": {
+          "fake": 0.3281673562248898,
+          "real": 0.6718326437751102,
+          "status": "success"
+        }
+      },
+      {
+        "text": "The conclusion follows the same path. ",
+        "result": {
+          "fake": 0.33467090842329983,
+          "real": 0.6653290915767002,
+          "status": "success"
+        }
+      },
+      {
+        "text": "Consider unifying discussion and conclusions and present the most important insights from applying this study (not results).",
+        "result": {
+          "fake": 0.3460266363342953,
+          "real": 0.6539733636657047,
+          "status": "success"
+        }
+      }
+    ]
+  },
+  "plagiarism": null,
+  "readability": {
+    "textStats": {
+      "letterCount": 5873,
+      "sentenceCount": 81,
+      "uniqueWordCount": 421,
+      "syllableCount": 2020,
+      "totalSyllables": 1998,
+      "averageSyllablesPerWord": 1.87,
+      "wordsWithThreeSyllables": 271,
+      "percentWordsWithThreeSyllables": 25.35,
+      "longestSentence": "we developed the VIEWER which is an open source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design development and deployment of clinical information retrieval analysis and visualization at the point of care. ",
+      "paragraphCount": 1,
+      "averageSpeakingTime": 8.2,
+      "averageReadingTime": 4,
+      "averageWritingTime": 26.7
+    },
+    "readability": {
+      "fleschReadingEase": 35.2,
+      "fleschGradeLevel": 11.6,
+      "gunningFoxIndex": 15.2,
+      "smogIndex": 12,
+      "powersSumnerKearl": 7.2,
+      "forcastGradeLevel": 12.3,
+      "colemanLiauIndex": 12,
+      "automatedReadabilityIndex": 11,
+      "daleChallReadabilityGrade": 7.2,
+      "spacheReadabilityGrade": 5,
+      "linsearWriteGrade": 0
+    },
+    "sentences": [
+      {
+        "phrase": "Overall Assessment\n\n  \ni) The abstract requires some improvements.",
+        "cleanPhrase": "Overall Assessment i  The abstract requires some improvements ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "For example, there should be a context before showing the objective so the reader can understand the reasons and justification for developing a new toolkit like the VIEWER.",
+        "cleanPhrase": "For example  there should be a context before showing the objective so the reader can understand the reasons and justification for developing a new toolkit like the VIEWER ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "justification"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Besides, information regarding the objective and method are mixed up.",
+        "cleanPhrase": "Besides  information regarding the objective and method are mixed up ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In the results, the authors should consider providing specific findings regarding the effectiveness and satisfaction and qualitative reports on its usability (e.g., ease of use).",
+        "cleanPhrase": "In the results  the authors should consider providing specific findings regarding the effectiveness and satisfaction and qualitative reports on its usability  e g   ease of use  ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "usability"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "The discussion and conclusion are redundant and should be rewritten/merged/excluded.",
+        "cleanPhrase": "The discussion and conclusion are redundant and should be rewritten/merged/excluded ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "rewritten/merged/excluded"
+        ],
+        "wordsOver4Syllables": [
+          "rewritten/merged/excluded"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "ii) The authors did a good job in the introduction; many references are cited, and each statement is grounded in scientific literature.",
+        "cleanPhrase": "ii  The authors did a good job in the introduction  many references are cited  and each statement is grounded in scientific literature ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Still, the authors could provide more discussion about using technologies to support data visualization, specifically in mental health.",
+        "cleanPhrase": "Still  the authors could provide more discussion about using technologies to support data visualization  specifically in mental health ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "visualization",
+          "specifically"
+        ],
+        "adverbs": [
+          "more"
+        ]
+      },
+      {
+        "phrase": "Previous studies and frameworks related to VIEWER should be discussed, and their limitations should be exposed so the authors can better justify the development of a new tool.",
+        "cleanPhrase": "Previous studies and frameworks related to VIEWER should be discussed  and their limitations should be exposed so the authors can better justify the development of a new tool ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In other words, the authors did not explore the challenges/limitations of existing solutions in depth.",
+        "cleanPhrase": "In other words  the authors did not explore the challenges/limitations of existing solutions in depth ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "challenges/limitations"
+        ],
+        "wordsOver4Syllables": [
+          "challenges/limitations"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Including concrete examples or statistics/qualitative results illustrating how current systems fail to meet mental health needs and caregivers' requirements is vital to improving the justification of a new tool for mental health.",
+        "cleanPhrase": "Including concrete examples or statistics/qualitative results illustrating how current systems fail to meet mental health needs and caregivers' requirements is vital to improving the justification of a new tool for mental health ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [
+          "statistics/qualitative"
+        ],
+        "wordsOver4Syllables": [
+          "statistics/qualitative",
+          "justification"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Besides, the introduction could benefit from a research question.",
+        "cleanPhrase": "Besides  the introduction could benefit from a research question ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In this regard, consider using the question I have provided as a starting point.",
+        "cleanPhrase": "In this regard  consider using the question I have provided as a starting point ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "iii) The authors provided a good overview of the methodological procedures, especially regarding the system architecture and its development.",
+        "cleanPhrase": "iii  The authors provided a good overview of the methodological procedures  especially regarding the system architecture and its development ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [
+          "methodological"
+        ],
+        "wordsOver4Syllables": [
+          "methodological"
+        ],
+        "adverbs": [
+          "especially"
+        ]
+      },
+      {
+        "phrase": "However, the method could benefit from a new figure showing the timeline of the VIEWER development, testing and evaluation and how many professionals participated in each step, etc.",
+        "cleanPhrase": "However  the method could benefit from a new figure showing the timeline of the VIEWER development  testing and evaluation and how many professionals participated in each step  etc ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "evaluation",
+          "professionals",
+          "participated"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Similarly, another figure could be used to represent the three design phases.",
+        "cleanPhrase": "Similarly  another figure could be used to represent the three design phases ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Besides, for each phase, the authors should explain the reasoning behind the premises better.",
+        "cleanPhrase": "Besides  for each phase  the authors should explain the reasoning behind the premises better ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "This will support replicability and researchers curious about the social-technical system perspective.",
+        "cleanPhrase": "This will support replicability and researchers curious about the social technical system perspective ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "replicability"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Regarding the requirements, clarify the context in which they were collected, e.g., specific meetings, observations, document analysis, etc.",
+        "cleanPhrase": "Regarding the requirements  clarify the context in which they were collected  e g   specific meetings  observations  document analysis  etc ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "I have provided some recommendations for improvement in the figures and tables.",
+        "cleanPhrase": "I have provided some recommendations for improvement in the figures and tables ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "recommendations"
+        ],
+        "wordsOver4Syllables": [
+          "recommendations"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "A fragility of the method section is the lack of information about the role of each stakeholder, how the needs/requirements were identified for each stakeholder group, e.g., semi-structured interviews, workshops, observations or questionnaires and how many times they were conducted for each group.",
+        "cleanPhrase": "A fragility of the method section is the lack of information about the role of each stakeholder  how the needs/requirements were identified for each stakeholder group  e g   semi structured interviews  workshops  observations or questionnaires and how many times they were conducted for each group ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [
+          "needs/requirements",
+          "questionnaires"
+        ],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Besides, there is no information about data analysis, i.e., how data was processed to provide the requirements, for example, as well as the VIEEWER framework, since it is based on data collection and analysis to meet the specific requirements from stakeholders.",
+        "cleanPhrase": "Besides  there is no information about data analysis  i e   how data was processed to provide the requirements  for example  as well as the VIEEWER framework  since it is based on data collection and analysis to meet the specific requirements from stakeholders ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": [
+          "well"
+        ]
+      },
+      {
+        "phrase": "iv) Results are very good as well.",
+        "cleanPhrase": "iv  Results are very good as well ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": [
+          "well"
+        ]
+      },
+      {
+        "phrase": "Still, patient and data characteristics should be moved to the methods section.",
+        "cleanPhrase": "Still  patient and data characteristics should be moved to the methods section ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "characteristics"
+        ],
+        "wordsOver4Syllables": [
+          "characteristics"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Table S1 requires notes on data integration to support replicability, while Figure 3 should include actionable strategies for managers and leverage LLMs for workload optimization.",
+        "cleanPhrase": "Table S1 requires notes on data integration to support replicability  while Figure 3 should include actionable strategies for managers and leverage LLMs for workload optimization ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "replicability",
+          "actionable",
+          "optimization"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "It seems that the VIEWER only presents data visualization but lacks in proposing NLP tools to support strategies and redundancy capabilities for the system.",
+        "cleanPhrase": "It seems that the VIEWER only presents data visualization but lacks in proposing NLP tools to support strategies and redundancy capabilities for the system ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "visualization",
+          "capabilities"
+        ],
+        "adverbs": [
+          "only"
+        ]
+      },
+      {
+        "phrase": "Figure 4 could explicitly state if automated recommendations exist for improving adherence.",
+        "cleanPhrase": "Figure 4 could explicitly state if automated recommendations exist for improving adherence ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "recommendations"
+        ],
+        "wordsOver4Syllables": [
+          "recommendations"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Tables should also be improved.",
+        "cleanPhrase": "Tables should also be improved ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "For example, Table 3 lacks evidence of VIEWER’s impact, which could be enhanced with metrics and a column detailing which stakeholders most benefit from tasks.",
+        "cleanPhrase": "For example  Table 3 lacks evidence of VIEWER s impact  which could be enhanced with metrics and a column detailing which stakeholders most benefit from tasks ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Figure 5 reflects good usability but indicates a need for technical support, suggesting tutorials for diverse skill levels (it would be important if the authors could provide some training as a sup material or suggest as a future work).",
+        "cleanPhrase": "Figure 5 reflects good usability but indicates a need for technical support  suggesting tutorials for diverse skill levels  it would be important if the authors could provide some training as a sup material or suggest as a future work  ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "usability"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Finally, Figure 6 and Table S2 show VIEWER’s time-saving benefits but lack specifics on feedback contributors, such as their roles and expertise.",
+        "cleanPhrase": "Finally  Figure 6 and Table S2 show VIEWER s time saving benefits but lack specifics on feedback contributors  such as their roles and expertise ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "The discussion could improve some of these aspects that seem missing in the results.",
+        "cleanPhrase": "The discussion could improve some of these aspects that seem missing in the results ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Abstract\n\ni) Consider providing some context for readers before jumping to the objective of this study, e.g., why is a new toolkit for visual analytics of clinical data needed?",
+        "cleanPhrase": "Abstract i  Consider providing some context for readers before jumping to the objective of this study  e g   why is a new toolkit for visual analytics of clinical data needed ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Are there existent/similar frameworks/toolkits?",
+        "cleanPhrase": "Are there existent/similar frameworks/toolkits ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [
+          "existent/similar",
+          "frameworks/toolkits"
+        ],
+        "wordsOver4Syllables": [
+          "existent/similar",
+          "frameworks/toolkits"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "A new one is necessary because they have limitations that VIEWER will address.",
+        "cleanPhrase": "A new one is necessary because they have limitations that VIEWER will address ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "How will it fill the literature gap or solve a research/practical problem?",
+        "cleanPhrase": "How will it fill the literature gap or solve a research/practical problem ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [
+          "research/practical"
+        ],
+        "wordsOver4Syllables": [
+          "research/practical"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "ii) The authors mix objectives with methods.",
+        "cleanPhrase": "ii  The authors mix objectives with methods ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "For example, the sentence “systematically evaluate its effectiveness across various clinical applications while gathering feedback for iterative improvements.” It should be used in the method section to describe how the tool will be assessed.",
+        "cleanPhrase": "For example  the sentence  systematically evaluate its effectiveness across various clinical applications while gathering feedback for iterative improvements   It should be used in the method section to describe how the tool will be assessed ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [
+          "systematically"
+        ],
+        "wordsOver4Syllables": [
+          "systematically"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "The objective is to create the tool.",
+        "cleanPhrase": "The objective is to create the tool ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In fact, consider excluding that sentence; what is already presented in the method may be redundant.",
+        "cleanPhrase": "In fact  consider excluding that sentence  what is already presented in the method may be redundant ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "iii) In fact, bring that sentence to the method and throw this one into the context: “IN ORDER TO FILL THIS GAP (WHICH gap or problem?), we developed the VIEWER, which is an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care.”.",
+        "cleanPhrase": "iii  In fact  bring that sentence to the method and throw this one into the context   IN ORDER TO FILL THIS GAP  WHICH gap or problem    we developed the VIEWER  which is an open source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design  development  and deployment of clinical information retrieval  analysis  and visualization at the point of care   ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "visualization",
+          "visualization"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "iv) For example, “IN ORDER TO FILL THIS GAP (WHICH ONE?), this study proposes the VIEWER, an open-source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design, development, and deployment of clinical information retrieval, analysis, and visualization at the point of care.",
+        "cleanPhrase": "iv  For example   IN ORDER TO FILL THIS GAP  WHICH ONE    this study proposes the VIEWER  an open source and extensible toolkit that employs distributed natural language processing and interactive visualization techniques to facilitate the rapid design  development  and deployment of clinical information retrieval  analysis  and visualization at the point of care ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "visualization",
+          "visualization"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Through an iterative and collaborative participatory design approach, VIEWER was designed and implemented in a large mental health institution, where its clinical utility and effectiveness were assessed using both quantitative and qualitative methods.”.",
+        "cleanPhrase": "Through an iterative and collaborative participatory design approach  VIEWER was designed and implemented in a large mental health institution  where its clinical utility and effectiveness were assessed using both quantitative and qualitative methods   ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "collaborative",
+          "participatory"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "v) Regarding the results, consider providing key findings about the VIEWER’s effectiveness, utility, etc.",
+        "cleanPhrase": "v  Regarding the results  consider providing key findings about the VIEWER s effectiveness  utility  etc ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "For example, VIEWER provides interactive (how?), improved performance (how much?) and task completion speed compared to the standard clinical information system (%???).",
+        "cleanPhrase": "For example  VIEWER provides interactive  how    improved performance  how much   and task completion speed compared to the standard clinical information system  %     ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Users and stakeholders reported high satisfaction (in which way?).",
+        "cleanPhrase": "Users and stakeholders reported high satisfaction  in which way   ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "vi) For example, “in terms of effectiveness, the time spent on medication review tasks was reduced from 1–2 hours to 10–20 minutes, representing a reduction of 75% to 83%.",
+        "cleanPhrase": "vi  For example   in terms of effectiveness  the time spent on medication review tasks was reduced from 1 2 hours to 10 20 minutes  representing a reduction of 75% to 83% ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In addition, the system identified medications that human reviewers had not highlighted.",
+        "cleanPhrase": "In addition  the system identified medications that human reviewers had not highlighted ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "In terms of user satisfaction, the usability index of VIEWER was 74/100, indicating “good” usability.",
+        "cleanPhrase": "In terms of user satisfaction  the usability index of VIEWER was 74/100  indicating  good  usability ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "usability",
+          "usability"
+        ],
+        "adverbs": []
+      },
+      {
+        "phrase": "Qualitative evaluations showed that users were interested in adopting the system in daily practices, even considering the initial learning curve.”.",
+        "cleanPhrase": "Qualitative evaluations showed that users were interested in adopting the system in daily practices  even considering the initial learning curve   ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [
+          "evaluations"
+        ],
+        "adverbs": [
+          "daily",
+          "even"
+        ]
+      },
+      {
+        "phrase": "vii) The discussion does not bring discussion of results but other information about results.",
+        "cleanPhrase": "vii  The discussion does not bring discussion of results but other information about results ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Discussion should present new insights, propositions for future works, limitations, etc.",
+        "cleanPhrase": "Discussion should present new insights  propositions for future works  limitations  etc ",
+        "isVeryHard": false,
+        "isHard": true,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "The conclusion follows the same path.",
+        "cleanPhrase": "The conclusion follows the same path ",
+        "isVeryHard": false,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      },
+      {
+        "phrase": "Consider unifying discussion and conclusions and present the most important insights from applying this study (not results).",
+        "cleanPhrase": "Consider unifying discussion and conclusions and present the most important insights from applying this study  not results  ",
+        "isVeryHard": true,
+        "isHard": false,
+        "wordsOver13Chars": [],
+        "wordsOver4Syllables": [],
+        "adverbs": []
+      }
+    ]
+  },
+  "grammarSpelling": {
+    "error": "Failed to run grammar spelling scan: Failed to run grammar spelling scan: <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>503 Service Unavailable</title>\n</head><body>\n<h1>Service Unavailable</h1>\n<p>The server is temporarily unable to service your\nrequest due to maintenance downtime or capacity\nproblems. Please try again later.</p>\n<hr>\n<address>Apache/2.4.58 (Ubuntu) Server at ec2-18-235-243-238.compute-1.amazonaws.com Port 80</address>\n</body></html>\n"
+  },
+  "excludedUrl": "https://example.com"
+}

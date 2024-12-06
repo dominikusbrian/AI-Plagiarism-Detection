@@ -1,0 +1,36 @@
+
+AI Detection Results:
+AI Probability: 1
+Original Probability: 0
+
+Confidence Scores:
+AI Confidence: 63.98%
+Original Confidence: 36.02%
+
+Readability Metrics:
+Word Count: 421
+Sentence Count: 81
+Average Speaking Time: 8.2 minutes
+Average Reading Time: 4 minutes
+
+Readability Scores:
+Flesch Reading Ease: 35.2
+Flesch-Kincaid Grade Level: 11.6
+
+Grammar & Spelling: Failed to run grammar spelling scan: Failed to run grammar spelling scan: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>503 Service Unavailable</title>
+</head><body>
+<h1>Service Unavailable</h1>
+<p>The server is temporarily unable to service your
+request due to maintenance downtime or capacity
+problems. Please try again later.</p>
+<hr>
+<address>Apache/2.4.58 (Ubuntu) Server at ec2-18-235-243-238.compute-1.amazonaws.com Port 80</address>
+</body></html>
+
+
+Credits Information:
+Used Credits: 42
+Base Credits: 50
+Subscription Credits: 14837
