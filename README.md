@@ -38,21 +38,21 @@ ORIGINALITY_AI_API_KEY = "your_api_key_here"
 | **Phase 1: API Integration** | | | |
 | | Research Originality.ai API capabilities | ✅ | Week 1 |
 | | Document API endpoints and functionality | ✅ | Week 1 |
-| | Create comprehensive README documentation | 🏗️ | Week 1 |
+| | Create comprehensive README documentation | ✅  | Week 1 |
 | **Phase 2: Core Functionality** | | | |
-| | Implement basic API connection | ✅ | Week 2 |
-| | Develop JSON data extraction utilities | ✅ | Week 2 |
-| | Add error handling and logging | 🏗️ | Week 2 |
+| | Implement basic API connection | ✅ | Week 1 |
+| | Develop JSON data extraction utilities | ✅ | Week 1 |
+| | Add error handling and logging | ✅  | Week 1 |
 | **Phase 3: Data Analysis** | | | |
-| | Implement basic data visualization | 📅 | Week 3 |
-| | Create statistical analysis functions | 📅 | Week 3 |
-| | Generate automated reports | 📅 | Week 3 |
+| | Implement basic data visualization | ✅  | Week 1 |
+| | Create statistical analysis functions | ✅  | Week 1 |
+| | Generate automated reports |  🏗️ | Week 1 |
 | **Phase 4: Frontend Development** | | | |
-| | Create Streamlit app structure | 📅 | Week 4 |
-| | Implement file upload functionality | 📅 | Week 4 |
-| | Add visualization components | 📅 | Week 5 |
-| | Develop download functionality | 📅 | Week 5 |
-| | Create interactive dashboard | 📅 | Week 6 |
+| | Create Streamlit app structure |  🏗️ | Week 2 |
+| | Implement file upload and text adding functionality |  🏗️ | Week 2 |
+| | Add visualization components of graphs and text distribution of plagiarism | 🏗️ | Week 2 |
+| | Develop download functionality for analysis report | 📅 | Week 2 |
+| | Create interactive dashboard | 📅 | Week 2 |
 
 Legend: ✅ Complete | 🏗️ In Progress | 📅 Planned
 
