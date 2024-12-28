@@ -15,6 +15,7 @@ from streamlit.components.v1 import html
 from script import OriginalityAI, initialize_client, format_results
 import tempfile
 
+
 class OriginalityVisualizer:
     def __init__(self, json_data: Dict):
         """Initialize visualizer with JSON data"""
