@@ -102,3 +102,64 @@ originality_results/
    - Navigate to `originality_results` directory
    - View formatted results in .txt file
    - Access raw data in _raw.json file
+
+## 📊 Streamlit Visualization Dashboard
+
+The project includes a comprehensive visualization dashboard (`visualize.py`) that provides an interactive way to analyze and visualize the results from Originality.ai.
+
+### Dashboard Features
+
+1. **Multiple Input Methods**:
+   - Upload JSON result files
+   - Upload text files for direct analysis
+   - Enter text directly for real-time analysis
+
+2. **Interactive Visualizations**:
+   - AI Detection confidence pie chart
+   - Readability metrics radar chart
+   - Text statistics bar charts
+   - Sentence complexity distribution
+   - Plagiarism analysis charts
+   - Readability timeline
+   - Sentence complexity heatmap
+
+3. **Detailed Analysis Sections**:
+   - Document properties overview
+   - AI detection analysis with risk levels
+   - Readability metrics and text statistics
+   - Sentence complexity analysis
+   - AI detection by text block
+   - Plagiarism detection results
+   - Detailed readability insights
+
+4. **Export Capabilities**:
+   - Generate interactive HTML reports
+   - Download complete analysis results
+   - Export visualizations
+
+### Running the Dashboard
+
+1. Install required dependencies:
+```bash
+pip install streamlit pandas matplotlib seaborn plotly
+```
+
+2. Launch the dashboard:
+```bash
+streamlit run visualize.py
+```
+
+3. Access the dashboard in your browser at `http://localhost:8501`
+
+### Dashboard Workflow
+
+1. **Input**: Choose your preferred input method:
+   - Upload a JSON file containing previous analysis results
+   - Upload a text file for new analysis
+   - Enter text directly into the interface
+
+2. **Analysis**: The dashboard will automatically process the input and generate:
+   - Interactive visualizations
+   - Detailed metrics
+   - Risk assessments
+   - Statistical analysis
